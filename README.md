@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/react-native-iphone-screen-helper.svg)](https://badge.fury.io/js/react-native-iphone-screen-helper)
+[![npm version](https://badge.fury.io/js/react-native-iphone-screen-helper-2.svg)](https://badge.fury.io/js/react-native-iphone-screen-helper-2)
 
 # react-native-iphone-screen-helper-2
 A library to help you design your react-native app for notched and dynamic island iPhones.
@@ -74,7 +74,7 @@ if (isIphoneX()) {
 ### getStatusBarHeight() ###
 
 **returns** - the height of the status bar:
-- `59` for safe iPhone 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max
+- `59` for safe iPhone 14 Pro, 14 Pro Max, 15, 15 Plus, 15 Pro, 15 Pro Max, 16, 16 Plus, 16 Pro, 16 Pro Max
 - `50` for safe iPhone 12 Mini, 13 Mini
 - `47` for safe iPhone 12, 12 Pro, 12 Pro Max, 13, 13 Pro, 13 Pro Max, 14, 14 Plus
 - `44` for safe iPhone X, Xs, Xs Max, 11 Pro, 11 Pro Max
