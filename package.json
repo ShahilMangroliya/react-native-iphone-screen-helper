@@ -1,5 +1,5 @@
 {
-  "name": "react-native-iphone-screen-helper",
+  "name": "@shahilmangroliya/react-native-iphone-screen-helper",
   "version": "2.1.1",
   "description": "A library to help you design your react-native app for the iPhone",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chlee1001/react-native-iphone-screen-helper.git"
+    "url": "git+https://github.com/ShahilMangroliya/react-native-iphone-screen-helper.git"
   },
   "keywords": [
     "react-native",
@@ -20,7 +20,7 @@
     "iphone",
     "stylesheet"
   ],
-  "author": "Chaehyeon Lee <chlee1001@naver.com>",
+  "author": "Shahil M <shahil.mangroliya123@gmail.com>",
   "contributors": [
     "ptelad <https://github.com/ptelad>",
     "Norch <https://github.com/Norcy>",
@@ -28,10 +28,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chlee1001/react-native-iphone-screen-helper/issues"
+    "url": "https://github.com/ShahilMangroliya/react-native-iphone-screen-helper/issues"
   },
-  "homepage": "https://github.com/chlee1001/react-native-iphone-screen-helper#readme",
+  "homepage": "https://github.com/ShahilMangroliya/react-native-iphone-screen-helper#readme",
   "peerDependencies": {
     "react-native": ">=0.42.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

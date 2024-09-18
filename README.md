@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/react-native-iphone-screen-helper.svg)](https://badge.fury.io/js/react-native-iphone-screen-helper)
 
-# react-native-iphone-screen-helper
+# @shahilmangroliya/react-native-iphone-screen-helper
 A library to help you design your react-native app for notched and dynamic island iPhones.
 
 
@@ -8,16 +8,16 @@ I forked this project to continue working on it.
 This project is a fork of https://www.npmjs.com/package/react-native-iphone-x-helper .
 The original repository is not maintained anymore.
 
-The project will be continued in this repository. react-native-iphone-screen-helper is fully compatible.
+The project will be continued in this repository. @shahilmangroliya/react-native-iphone-screen-helper is fully compatible.
 If you want to support the project feel free to contact me or create a pull request with your feature.
 
 
 ## Installing ##
-`yarn add react-native-iphone-screen-helper`
+`yarn add @shahilmangroliya/react-native-iphone-screen-helper`
 
 or
 
-`npm i react-native-iphone-screen-helper --save`
+`npm i @shahilmangroliya/react-native-iphone-screen-helper --save`
 
 ## API ##
 
@@ -34,7 +34,7 @@ This method is for creating stylesheets with the iPhone X and later models, incl
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { ifIphoneX } from 'react-native-iphone-screen-helper'
+import { ifIphoneX } from '@shahilmangroliya/react-native-iphone-screen-helper'
 
 export default StyleSheet.create({
     header:{
@@ -60,7 +60,7 @@ export default StyleSheet.create({
 
 #### Example ####
 ```js
-import { isIphoneX } from 'react-native-iphone-screen-helper'
+import { isIphoneX } from '@shahilmangroliya/react-native-iphone-screen-helper'
 
 // ...
 
@@ -88,7 +88,7 @@ if (isIphoneX()) {
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { getStatusBarHeight } from 'react-native-iphone-screen-helper'
+import { getStatusBarHeight } from '@shahilmangroliya/react-native-iphone-screen-helper'
 
 export default StyleSheet.create({
     header:{
@@ -114,7 +114,7 @@ export default StyleSheet.create({
 // in style.js
 
 import { StyleSheet } from 'react-native';
-import { getBottomSpace } from 'react-native-iphone-screen-helper'
+import { getBottomSpace } from '@shahilmangroliya/react-native-iphone-screen-helper'
 
 export default StyleSheet.create({
   totalview: {
@@ -154,6 +154,10 @@ export default StyleSheet.create({
 | iPhone15,5 | iPhone 15 Plus       | 393 x 852 (3x ~461ppi) |                59 |
 | iPhone16,1 | iPhone 15 Pro        | 393 x 852 (3x ~460ppi) |                59 |
 | iPhone16,2 | iPhone 15 Pro Max    | 430 x 932 (3x ~460ppi) |                59 |
+| iPhone16,4 | iPhone 16            | 402 x 874 (3x ~460ppi) |                59 |
+| iPhone16,5 | iPhone 16 Plus       | 440 x 956 (3x ~461ppi) |                59 |
+| iPhone17,1 | iPhone 16 Pro        | 402 x 874 (3x ~460ppi) |                59 |
+| iPhone17,2 | iPhone 16 Pro Max    | 440 x 956 (3x ~460ppi) |                59 |
 
 
 ## Licence ##
