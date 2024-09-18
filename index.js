@@ -11,6 +11,7 @@ const checkDimensions = (dimensions) => {
             (screen.width === height && screen.height === width)
     })
 }
+
 const checkStatusBarHeight = (height) => {
     const resolutions = {
         44: [
@@ -28,9 +29,11 @@ const checkStatusBarHeight = (height) => {
             [360, 780],
             [375, 812]
         ],
-        59: [
+        54: [
             [393, 852],
-            [430, 932]
+            [430, 932],
+            [402, 874],   // iPhone 16 Pro
+            [440, 956]    // iPhone 16 Pro Max
         ]
     }
 
@@ -50,8 +53,8 @@ const getIphoneStatusBarHeight = () => {
         if (checkStatusBarHeight(50)) {
             return 50
         }
-        if (checkStatusBarHeight(59)) {
-            return 59
+        if (checkStatusBarHeight(54)) {
+            return 54
         }
         return 44
     }
@@ -66,12 +69,14 @@ export function isIphoneX() {
         [896, 414],
         [926, 428],
         [852, 393],
-        [932, 430]
+        [932, 430],
+        [874, 402],   // iPhone 16 Pro
+        [956, 440]    // iPhone 16 Pro Max
     ])
 }
 
 export function isDynamicIsland() {
-    return Platform.OS === "ios" && !Platform.isPad && !Platform.isTV && checkStatusBarHeight(59)
+    return Platform.OS === "ios" && !Platform.isPad && !Platform.isTV && checkStatusBarHeight(54)
 }
 
 export function ifIphoneX(iphoneXStyle, regularStyle) {
